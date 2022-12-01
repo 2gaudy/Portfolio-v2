@@ -10937,6 +10937,17 @@ textarea.form-control-lg {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
+  padding: 0;
+}
+
+.main {
+  padding: 20px;
 }
 
 .landing {
@@ -10962,6 +10973,22 @@ textarea.form-control-lg {
 
 #about {
   background-color: #2B32B2;
+}
+#about .about-section {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0;
+}
+
+.skills p {
+  font-size: 30px;
+  color: white;
+}
+
+.skills-head {
+  font-weight: 50px;
+  color: white;
 }
 
 @media (max-width: 1028px) {

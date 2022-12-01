@@ -1,8 +1,17 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-.body{
+.body {
     height: fit-content;
+    width: fit-content;
     
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.main {
+    padding: 20px;
 }
 
 .landing {
@@ -34,9 +43,33 @@
     }
 }
 
+
+
 #about {
     background-color: #2B32B2;
+    
+    .about-section{
+        height: fit-content;
+        margin: 0;
+
+    }
+    
+    
 }
+
+.skills {
+    p {
+        font-size: 30px;
+        color: white;
+    }
+}
+
+.skills-head {
+    font-weight: 50px;
+    color: white;
+
+}
+
 
 @media (max-width: 1028px){
     .Spline{

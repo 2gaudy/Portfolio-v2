@@ -14,8 +14,8 @@ function App() {
       <section id="nav">
 
       <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid gx-0">
-          <a class="navbar-brand gx-0" href="#">Austin Grant</a>
+        <div class="container-fluid gx-1">
+          <a class="navbar-brand gx-2" href="#">Austin Grant</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -49,30 +49,40 @@ function App() {
 
       </section>
 
-      <section id="land">
+      <section id="main">
 
-        <div className='landing row align-items-center'>
-          <div className='col-lg-6 Spline'>
-            <Spline scene="https://prod.spline.design/55LWcQxXwgrHJ8CJ/scene.splinecode" />
-          </div>
-          
-          <div className='head-text col-lg-3 text-center'>
-            <h1>Austin Grant.</h1>
-            <h3>Web Developer</h3>
-            <h3>Musician</h3>
-            <h3>Creative</h3>
-          </div>
-          
-        </div>
-      
-      </section>
+        <section id="land">
 
-      <section id="about">
-        <div className="row align-items-center">
-          <div className='col-lg-12 text-center gx-2'>
-            <p>About me.</p>
+          <div className='landing row align-items-center'>
+            <div className='col-lg-6 Spline'>
+              <Spline scene="https://prod.spline.design/55LWcQxXwgrHJ8CJ/scene.splinecode" />
+            </div>
+            
+            <div className='head-text col-lg-3 text-center'>
+              <h1>Austin Grant.</h1>
+              <h3>Web Developer</h3>
+              <h3>Musician</h3>
+              <h3>Creative</h3>
+            </div>
+            
           </div>
-        </div>
+        
+        </section>
+
+        <section id="about">
+          <div className="about-section row align-items-center">
+            <div className='Spline col-lg-6 text-center gx-2'>
+              <Spline className='Spline' scene="https://prod.spline.design/5lItWqZIBkFaXNm2/scene.splinecode" />
+            </div>
+            <div className='col-lg-3 text-center gx-2 skills'>
+              <h1 className='skills-head'>Skills</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+            </div>
+          </div>
+        </section>
+        
+
+
       </section>
     </div>
   )
