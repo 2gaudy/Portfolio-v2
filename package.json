@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
+    "@splinetool/react-spline": "^2.2.3",
+    "@splinetool/runtime": "^0.9.146",
     "bootstrap": "^5.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

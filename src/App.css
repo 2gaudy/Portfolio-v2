@@ -10932,4 +10932,14 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.Landing {
+  min-width: 100%;
+  min-height: 80%;
+}
+
+.Spline-scene {
+  min-width: 100%;
+  height: 100vh;
+  padding: 0px;
 }/*# sourceMappingURL=App.css.map */
