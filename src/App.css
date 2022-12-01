@@ -10933,13 +10933,40 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.Landing {
-  min-width: 100%;
-  min-height: 80%;
+.body {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
-.Spline-scene {
-  min-width: 100%;
+.landing {
+  padding: 20px;
   height: 100vh;
-  padding: 0px;
+  background-color: #2B32B2;
+}
+
+.Spline {
+  height: 70vh;
+  width: 70vw;
+  padding: 50px;
+}
+
+.head-text h1, .head-text .h1 {
+  color: white;
+  font-size: 60px;
+}
+.head-text h3, .head-text .h3 {
+  color: white;
+  font-size: 30px;
+}
+
+#about {
+  background-color: #2B32B2;
+}
+
+@media (max-width: 1028px) {
+  .Spline {
+    width: 100vw;
+    height: 100vh;
+  }
 }/*# sourceMappingURL=App.css.map */
