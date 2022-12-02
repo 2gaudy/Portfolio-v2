@@ -54,7 +54,7 @@ function App() {
         <section id="land">
 
           <div className='landing row align-items-center'>
-            <div className='col-lg-6 Spline'>
+            <div className='col-sm-12 col-lg-4 Spline'>
               <Spline scene="https://prod.spline.design/55LWcQxXwgrHJ8CJ/scene.splinecode" />
             </div>
             
@@ -71,12 +71,19 @@ function App() {
 
         <section id="about">
           <div className="about-section row align-items-center">
-            <div className='Spline col-lg-6 text-center gx-2'>
+            <div className='Spline col-l-8 text-center gx-2'>
               <Spline className='Spline' scene="https://prod.spline.design/5lItWqZIBkFaXNm2/scene.splinecode" />
             </div>
             <div className='col-lg-3 text-center gx-2 skills'>
-              <h1 className='skills-head'>Skills</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+              <h1 className='skills-head'>Some of my Skills are...</h1>
+              <ul className="skills-list list-group">
+                <li>React</li>
+                <li>Javascript</li>
+                <li>Python</li>
+                <li>Node.Js</li>
+                <li>SCSS</li>
+                <li>Flask</li>
+              </ul>
             </div>
           </div>
         </section>

@@ -10,13 +10,19 @@
     padding: 0;
 }
 
+#nav {
+    padding: 10px;
+    
+}
+
 .main {
     padding: 20px;
 }
 
 .landing {
-    padding: 20px;
+    padding: 10px;
     height: 100vh;
+
     background-color: #2B32B2;
 
 
@@ -27,7 +33,11 @@
 .Spline {
     height: 70vh ;
     width: 70vw;
-    padding: 50px;
+    padding: 20px;
+
+    @media (max-width: 1024px){
+        transform: scale(0.5);
+    }
 }
 
 .head-text{
@@ -62,6 +72,11 @@
         font-size: 30px;
         color: white;
     }
+    
+    li{
+        list-style-type: none;
+        color: white;
+    }
 }
 
 .skills-head {
@@ -73,7 +88,6 @@
 
 @media (max-width: 1028px){
     .Spline{
-        width: 100vw;
-        height: 100vh;
+        transform: scale(0.8);
     }
 }
