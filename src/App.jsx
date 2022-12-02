@@ -1,5 +1,5 @@
-import { useState } from 'react'
 import reactLogo from './assets/react.svg'
+import { useState } from 'react'
 import './App.css'
 import Spline from '@splinetool/react-spline';
 
@@ -54,7 +54,7 @@ function App() {
         <section id="land">
 
           <div className='landing row align-items-center'>
-            <div className='col-sm-12 col-lg-4 Spline'>
+            <div className='col-md-12 col-lg-4 Spline'>
               <Spline scene="https://prod.spline.design/55LWcQxXwgrHJ8CJ/scene.splinecode" />
             </div>
             
@@ -69,23 +69,94 @@ function App() {
         
         </section>
 
+        <hr className='hr'/>
+
         <section id="about">
           <div className="about-section row align-items-center">
             <div className='Spline col-l-8 text-center gx-2'>
               <Spline className='Spline' scene="https://prod.spline.design/5lItWqZIBkFaXNm2/scene.splinecode" />
             </div>
             <div className='col-lg-3 text-center gx-2 skills'>
+
               <h1 className='skills-head'>Some of my Skills are...</h1>
+              
               <ul className="skills-list list-group">
-                <li>React</li>
-                <li>Javascript</li>
-                <li>Python</li>
-                <li>Node.Js</li>
-                <li>SCSS</li>
-                <li>Flask</li>
+                <li><h2>React</h2></li>
+                <li><h2>Javascript</h2></li>
+                <li><h2>Python</h2></li>
+                <li><h2>Node.Js</h2></li>
+                <li><h2>SCSS</h2></li>
+                <li><h2>Flask</h2></li>
               </ul>
+
             </div>
           </div>
+        </section>
+
+        <hr className='hr'/>
+
+        <section id="projects">
+
+          <h1 className='text-center '>Some of my favorite projects are...</h1>
+
+          <div className='container-fluid row project-cards'>
+            
+
+            <div className='card project-card' >
+              <img src="..." class="card-img-top" alt="..."/>
+              <div className='card-body'>
+                <h2>Snake</h2>
+                <p className="card-text">This Project Contained:</p>
+              </div>
+
+            </div>
+
+            <div className='card project-card' >
+              <img src="..." class="card-img-top" alt="..."/>
+              <div className='card-body'>
+                <h2>NoteTaker App</h2>
+                <p className="card-text">This Project Contained:</p>
+              </div>
+
+            </div>
+
+            <div className='card project-card' >
+              <img src="..." class="card-img-top" alt="..."/>
+              <div className='card-body'>
+                <h2>Calendar</h2>
+                <p className="card-text">This Project Contained:</p>
+              </div>
+
+            </div>
+
+            <div className='card project-card' >
+              <img src="..." class="card-img-top" alt="..."/>
+              <div className='card-body'>
+                <p className="card-text">This Project Contained:</p>
+              </div>
+
+            </div>
+
+            <div className='card project-card' >
+              <img src="..." class="card-img-top" alt="..."/>
+              <div className='card-body'>
+                <p className="card-text">This Project Contained:</p>
+              </div>
+
+            </div>
+
+            <div className='card project-card' >
+              <img src="..." class="card-img-top" alt="..."/>
+              <div className='card-body'>
+                <p className="card-text">This Project Contained:</p>
+              </div>
+
+            </div>
+
+          </div>
+
+
+
         </section>
         
 

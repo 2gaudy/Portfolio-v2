@@ -10950,6 +10950,16 @@ textarea.form-control-lg {
   padding: 10px;
 }
 
+.hr {
+  background-color: #2B32B2;
+  border: #fdfdfd;
+  border-top: 50px;
+  border-bottom: 0px;
+  padding: 0;
+  border-style: dotted;
+  margin: 0;
+}
+
 .main {
   padding: 20px;
 }
@@ -11008,4 +11018,19 @@ textarea.form-control-lg {
   .Spline {
     transform: scale(0.8);
   }
+}
+#projects {
+  padding: 100px;
+  display: flex;
+  background-color: #2B32B2;
+}
+
+.project-card {
+  width: 18rem;
+  margin: 10vh;
+}
+
+.project-cards {
+  padding: 3% 2%;
+  justify-content: space-evenly;
 }/*# sourceMappingURL=App.css.map */
