@@ -21,16 +21,14 @@ function App() {
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                 <a class="nav-link" href="#">Projects</a>
+                 <a class="nav-link" href="#projects">Projects</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> More</a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">About Me</a></li>
+                  <li><a class="dropdown-item" href="#about">About Me</a></li>
                   <li><a class="dropdown-item" href="#">Socials</a></li>
                   <li>
                     <hr class="dropdown-divider"></hr>
@@ -61,7 +59,7 @@ function App() {
             <div className='head-text col-lg-3 text-center'>
               <h1>Austin Grant.</h1>
               <h3>Web Developer</h3>
-              <h3>Musician</h3>
+              {/* <h3>Musician</h3> */}
               <h3>Creative</h3>
             </div>
             
@@ -69,7 +67,7 @@ function App() {
         
         </section>
 
-        <hr className='hr'/>
+        {/* <hr className='hr'/> */}
 
         <section id="about">
           <div className="about-section row align-items-center">
@@ -81,75 +79,83 @@ function App() {
               <h1 className='skills-head'>Some of my Skills are...</h1>
               
               <ul className="skills-list list-group">
-                <li><h2>React</h2></li>
+                <li><h2>React/React Native</h2></li>
                 <li><h2>Javascript</h2></li>
                 <li><h2>Python</h2></li>
                 <li><h2>Node.Js</h2></li>
-                <li><h2>SCSS</h2></li>
+                <li><h2>ExpressJs</h2></li>
                 <li><h2>Flask</h2></li>
+                <li><h2>Prisma</h2></li>
               </ul>
 
             </div>
           </div>
         </section>
 
-        <hr className='hr'/>
+        {/* <hr className='hr'/> */}
 
         <section id="projects">
 
-          <h1 className='text-center '>Some of my favorite projects are...</h1>
+          <div className='row align-items-center justify-content-center'>
 
-          <div className='container-fluid row project-cards'>
-            
-
-            <div className='card project-card' >
-              <img src="..." class="card-img-top" alt="..."/>
-              <div className='card-body'>
-                <h2>Snake</h2>
-                <p className="card-text">This Project Contained:</p>
-              </div>
-
+          
+            <div className='col-md-4 col-lg-4 Spline'>
+              <Spline scene="https://prod.spline.design/59usR6rwqfj4rYSl/scene.splinecode" />
             </div>
 
-            <div className='card project-card' >
-              <img src="..." class="card-img-top" alt="..."/>
-              <div className='card-body'>
-                <h2>NoteTaker App</h2>
-                <p className="card-text">This Project Contained:</p>
+            <div className='container-fluid row project-cards'>
+              
+
+              <div className='d-flex justify-content-center align-items-center card project-card p-3' >
+                <img src='src/img/snake-game.png' class="card-img-top"/>
+                <div className='d-flex flex-column card-body'>
+                  <h2>Snake</h2>
+                  {/* <p className="card-text">This Project Contained:</p> */}
+                  <button type="button" class="btn btn-warning">View</button>
+                </div>
+
               </div>
 
-            </div>
+              <div className='d-flex justify-content-center align-items-center card project-card p-3' >
+                <img src="src/img/nicer-notes.png" class="card-img-top" alt="..."/>
+                <div className='d-flex flex-column card-body'>
+                  <h2>Nicer Notes Notetaker</h2>
+                  {/* <p className="card-text">This Project Contained:</p> */}
+                  <button type="button" class="btn btn-warning">View</button>
+                </div>
 
-            <div className='card project-card' >
-              <img src="..." class="card-img-top" alt="..."/>
-              <div className='card-body'>
-                <h2>Calendar</h2>
-                <p className="card-text">This Project Contained:</p>
               </div>
 
-            </div>
+              <div className='d-flex justify-content-center align-items-center card project-card p-3' >
+                <img src="src/img/pass-manager.png" class="card-img-top" alt="..."/>
+                <div className='d-flex flex-column card-body'>
+                  <h2>Local Password Manager</h2>
+                  {/* <p className="card-text">This Project Contained:</p> */}
+                  <button type="button" class="btn btn-warning">View</button>
+                </div>
 
-            <div className='card project-card' >
-              <img src="..." class="card-img-top" alt="..."/>
-              <div className='card-body'>
-                <p className="card-text">This Project Contained:</p>
               </div>
 
-            </div>
+              <div className='d-flex justify-content-center align-items-center card project-card p-3' >
+                <img src="src/img/tindog.png" class="card-img-top" alt="..."/>
+                <div className='d-flex flex-column card-body'>
+                  <h2>Fake Tinder for Dogs</h2>
+                  <button type="button" class="btn btn-warning">View</button>
+                </div>
 
-            <div className='card project-card' >
-              <img src="..." class="card-img-top" alt="..."/>
-              <div className='card-body'>
-                <p className="card-text">This Project Contained:</p>
               </div>
 
-            </div>
+              
 
-            <div className='card project-card' >
-              <img src="..." class="card-img-top" alt="..."/>
-              <div className='card-body'>
-                <p className="card-text">This Project Contained:</p>
-              </div>
+              <div className='d-flex justify-content-center align-items-center card project-card p-3' >
+                <img src="src/img/jordan-site.png" class="card-img-top" alt="..."/>
+                <div className='d-flex flex-column card-body'>
+                  <h2>Jordan Lynton's Site</h2>
+                  <button type="button" class="btn btn-warning">View</button>
+                  
+                </div>
+
+              </div> 
 
             </div>
 

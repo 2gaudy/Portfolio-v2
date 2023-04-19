@@ -2,7 +2,8 @@
 
 .body {
     height: fit-content;
-    width: fit-content;
+    width: 100vw;
+    
     
 }
 
@@ -28,6 +29,11 @@
 .main {
     padding: 20px;
 
+    .land {
+
+        width: 100vw;
+
+    }
     
 
 }
@@ -35,8 +41,9 @@
 .landing {
     padding: 10px;
     height: 100vh;
-
+    width: 100vw;
     background-color: #2B32B2;
+    margin: 0;
 
 
 
@@ -47,6 +54,7 @@
     height: 70vh ;
     width: 70vw;
     padding: 20px;
+    transform: scale(0.8);
 
     @media (max-width: 1024px){
         transform: scale(0.5);
@@ -70,7 +78,8 @@
 
 #about {
     background-color: #2B32B2;
-    
+    width: 100vw;
+
     .about-section{
         height: fit-content;
         margin: 0;
@@ -109,16 +118,24 @@
     padding: 100px;
     display: flex;
     background-color: #2B32B2;
+    align-items: center;
+    width: 100vw;
+
+    .project-head {
+        
+        height: 10vh;
+
+    }
     
 }
 
 .project-card {
-    width: 18rem;
+    width: 15rem;
     margin: 10vh;
 
 }
 
 .project-cards {
-    padding: 3% 2%;
+    padding: 1% 1%;
     justify-content: space-evenly;
 }
